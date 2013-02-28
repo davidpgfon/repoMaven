@@ -1,4 +1,5 @@
 #!/bin/bash
 
-#echo build!
+echo build!
+echo COMPLETE!
 ls -al
