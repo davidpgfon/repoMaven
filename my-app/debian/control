@@ -1,0 +1,11 @@
+Package: pruebamaven
+Version: 1.0
+License: unknown
+Vendor: jenkins@ci
+Architecture: all
+Maintainer: <jenkins@ci>
+Installed-Size: 2
+Section: default
+Priority: extra
+Homepage: http://example.com/no-uri-given
+Description: no description given
