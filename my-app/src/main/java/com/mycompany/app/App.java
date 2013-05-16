@@ -9,7 +9,7 @@ import java.util.Set;
  */
 public class App 
 {
-private int aux;	
+private static int aux;	
     public String crearA(){
 		
 		return "SUCCESS";
