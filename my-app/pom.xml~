@@ -15,30 +15,29 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <reporting>
+	  <plugins>
+		  <plugin>
+		      <groupId>org.apache.maven.plugins</groupId>	
+		      <artifactId>maven-pmd-plugin</artifactId>
+		      <configuration>
+			<linkXref>true</linkXref>
+			<outputDirectory>${project.build.directory}/pmd2</outputDirectory>
+        		<targetDirectory>${project.build.directory}</targetDirectory>
+		      </configuration>
+		    </plugin>
+	 </plugins>
+  </reporting>
 
   <build>
-
     <plugins>
- 
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>deb-maven-plugin</artifactId>
-        <configuration>
-          <description>A test project</description>
-              <maintainer>Tim OBrien &lt;tobrien@discursive.com&gt;</maintainer>
-              <section>libs</section>
-              <priority>optional</priority>     
-              <architecture>all</architecture>
-        </configuration>
-        <executions>
-          <execution>
-            <goals>
-              <goal>deb</goal>
-            </goals>
-          </execution>
-        </executions>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <version>3.0.1</version>
       </plugin>
-   
     </plugins>
-  </build>	
+  </build>
+
+  
 </project>
