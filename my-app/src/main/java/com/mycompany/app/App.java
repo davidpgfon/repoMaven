@@ -6,11 +6,19 @@ package com.mycompany.app;
  */
 public class App 
 {
+
+    public String crearA(){
+		
+		return "SUCCESS";
+	}
+
+    public String crearB(){
+		
+		return "FAIL";
+	}
+
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
-	System.out.println( "Bye!" );
-	System.out.println( "Hello World!" );
-	System.out.println( "Hello World!" );
+        System.out.println(( "Hello World!" ));
     }
 }
