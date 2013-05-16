@@ -1,3 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.0.2" timestamp="2013-05-16T09:57:29.010">
+<pmd version="5.0.2" timestamp="2013-05-16T13:11:06.089">
+<file name="/home/david/repoMaven/my-app/src/main/java/com/mycompany/app/App.java">
+<violation beginline="2" endline="2" begincolumn="1" endcolumn="22" rule="UnusedImports" ruleset="Import Statements" package="com.mycompany.app" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.List'
+</violation>
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="21" rule="UnusedImports" ruleset="Import Statements" package="com.mycompany.app" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.Set'
+</violation>
+<violation beginline="12" endline="12" begincolumn="13" endcolumn="15" rule="UnusedPrivateField" ruleset="Unused Code" package="com.mycompany.app" class="App" variable="aux" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'aux'.
+</violation>
+<violation beginline="26" endline="26" begincolumn="30" endcolumn="43" rule="UselessParentheses" ruleset="Unnecessary" package="com.mycompany.app" class="App" method="main" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="/home/david/repoMaven/my-app/src/main/java/com/mycompany/app/Copia.java">
+<violation beginline="22" endline="22" begincolumn="30" endcolumn="43" rule="UselessParentheses" ruleset="Unnecessary" package="com.mycompany.app" class="Copia" method="main" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
 </pmd>
